@@ -1,5 +1,5 @@
 {
-    "name": "kreativekorp/barcode",
+    "name": "trim06/barcode",
     "type": "library",
     "description": "Generate barcodes from a single PHP file.",
     "homepage": "https://github.com/kreativekorp/barcode/",
@@ -14,6 +14,8 @@
         }
     ],
     "autoload": {
-        "classmap": ["barcode.php"]
-    }
+        "psr-4": {
+            "kreativekorp\\QRCode\\": "src/"
+        }
+    },
 }
