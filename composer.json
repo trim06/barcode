@@ -3,9 +3,7 @@
     "type": "library",
     "description": "Generate barcodes from a single PHP file.",
     "homepage": "https://github.com/kreativekorp/barcode/",
-    "license": [
-      "MIT"
-    ],
+    "license": "MIT",
     "authors": [
         {
             "name": "Kreative Software",
@@ -17,5 +15,5 @@
         "psr-4": {
             "kreativekorp\\QRCode\\": "src/"
         }
-    },
+    }
 }
